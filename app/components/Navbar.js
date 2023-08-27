@@ -5,6 +5,7 @@ export default function Navbar() {
     { path: "/", name: "Home" },
     { path: "/blog", name: "Blog" },
     { path: "/about", name: "About" },
+    { path: "/todos", name: "Todos" },
   ];
   return (
     <nav className="bg-white border-b border-gray-200 shadow-lg shadow-gray-100 ">

@@ -5,9 +5,7 @@ export const metadata = {
   description: "My home page",
 };
 export default function Home() {
-  return (
-    <>
-      <HomePage />
-    </>
-  );
+  console.log("Loading Home");
+
+  return <HomePage />;
 }
