@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function Navbar() {
   const links = [
     { path: "/", name: "Home" },
-    { path: "/cv", name: "Cv" },
-    { path: "/contact", name: "Contact" },
+    { path: "/blog", name: "Blog" },
+    { path: "/about", name: "About" },
   ];
   return (
     <nav className="bg-white border-b border-gray-200 shadow-lg shadow-gray-100 ">
